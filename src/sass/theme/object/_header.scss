@@ -1,0 +1,136 @@
+.nav_toggle {
+  display: block;
+  position: fixed;
+  width: 65px;
+  height: 65px;
+  border-radius: 42px;
+  box-shadow: 1px 2px 15px 5px cl(gray);
+  background-color: cl(white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 101;
+  top: 40px;
+  right: 30px;
+  display: none;
+  @include sp {
+    display: block;
+  }
+}
+.nav_toggle i {
+  display: block;
+  height: 2px;
+  width: 22px;
+  background-color: #333;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform 0.5s, opacity 0.5s;
+}
+.nav_toggle i:nth-child(1) {
+  top: 34px;
+}
+.nav_toggle i:nth-child(2) {
+  bottom: 34px;
+}
+
+// クリック時のバーガーボタン
+.nav_toggle.show i:nth-child(1) {
+  top: 32px;
+}
+.nav_toggle.show i:nth-child(2) {
+  opacity: 0;
+}
+// ナビゲーション
+.header-nav {
+  font-family: "Cinzel", "PT Serif", serif, "Dancing Script";
+}
+.nav-list {
+  position: fixed;
+  top: 40px;
+  right: 30px;
+  display: flex;
+  height: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 42px;
+  box-shadow: 1px 2px 15px 5px cl(gray);
+  background-color: cl(white);
+  z-index: 100;
+  transition: transform 1s, opacity 0.7s ease-out;
+  transform: scale(1, 1);
+  transform-origin: right top;
+  opacity: 1;
+  &:hover {
+    .item:not(:hover) {
+      opacity: 0.5;
+    }
+  }
+  @include sp {
+    transform-origin: right top;
+    transform: scale(0, 1);
+    opacity: 0;
+  }
+  &.Telescopic {
+    transform-origin: right top;
+    transform: scale(0, 1);
+    opacity: 0;
+  }
+  .item {
+    .link {
+      display: block;
+      padding: 0px 16px;
+      color: cl(black);
+      font-size: 2rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+// クリック時のナビゲーション
+.click-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100vw);
+  transition: transform 0.5s;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cl(white);
+  font-family: "Cinzel", "PT Serif", serif, "Dancing Script";
+}
+
+.click-list {
+  &:hover {
+    .item:not(:hover) {
+      opacity: 0.5;
+    }
+  }
+  .item {
+    margin-top: 10vh;
+    transform: translateX(0px);
+    transition: transform 0.3s;
+    &:first-of-type {
+      margin-top: 0;
+    }
+    &:hover {
+      transform: translateX(10px);
+    }
+    .link {
+      color: cl(black);
+      font-size: 2rem;
+    }
+  }
+}
+.click-nav.show {
+  transform: translateX(0px);
+}
+body.fixed {
+  overflow: hidden;
+}

@@ -1,0 +1,58 @@
+// COLORS
+// @inlcude cl(black);
+//--------------------------------------------------
+
+$colors: (
+  white: #fff,
+  black: #000,
+  text: #333333,
+  grey: #ebecef,
+  lightgrey: #f2f2f2,
+  red: #ff0000,
+  primary: #4d0000,
+  gold: #b8860bea,
+  baige: #ffffdd,
+  blue: #030f55,
+  orange: #ff9514,
+);
+
+@function cl($key) {
+  @return map-get($colors, $key);
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "PT Serif", "Cinzel", serif, "Dancing Script";
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  line-height: 0;
+}
+
+// FONT
+// @inlcude TimesNewRoman;
+//--------------------------------------------------
+
+@mixin TimesNewRoman {
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+    "Yu Mincho", "MS PMincho", serif;
+}
+
+// RESPONSIVE
+// @include sp
+//--------------------------------------------------
+
+@mixin sp {
+  @media print, screen and (max-width: 768px) {
+    @content;
+  }
+}

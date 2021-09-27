@@ -31,3 +31,29 @@ function add_child_theme_textdomain() {
     load_child_theme_textdomain( 'understrap-child', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
+
+
+
+
+// ここから
+
+function add_css_js() {
+	//CSSの読み込みはここから
+  // animateの読み込み
+  wp_enqueue_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css');
+  //css/reset.cssを読み込み
+	wp_enqueue_style('reset', get_theme_file_uri('/css/reset.css'));
+    // css読み込み
+    wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() . '/css/child-theme.css');
+
+	//JavaScriptの読み込みはここから
+  // jqueryの読み込み
+	wp_enqueue_script('jquery','https://code.jquery.com/jquery-3.6.0.min.js', array(), '', true);
+  // wowの読み込み
+  wp_enqueue_script('wow', get_theme_file_uri('/src/js/wow.min.js'), array(), false, true);
+	//js/script.jsを読み込み
+	wp_enqueue_script('js', get_theme_file_uri('/src/js/custom-javascript.js'), array(), '', true);
+}
+//関数名add_scripts()を表側で呼び出す
+add_action('wp_enqueue_scripts', 'add_css_js');
+
