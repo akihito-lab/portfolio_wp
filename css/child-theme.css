@@ -14346,7 +14346,7 @@ body.fixed {
 }
 
 .top {
-  background-image: url(./image/water-1018808_1280.jpg);
+  background-image: url(../image/water-1018808_1280.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -14368,6 +14368,10 @@ body.fixed {
   .top-title {
     font-size: 8vw;
   }
+}
+
+.main-title {
+  font-size: 6vw;
 }
 
 .service {
