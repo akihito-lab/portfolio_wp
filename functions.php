@@ -36,17 +36,29 @@ add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
 
 
 // ここから
+function insert_title(){
+    add_theme_support('title-tag');
+}
+add_action('after_setup_theme', 'insert_title');
+// サイト名-ページ名を、サイト名|ページ名にする
+function change_title_separator($sep){
+    $sep = '|';
+    return $sep;
+}
+add_filter('document_title_separator', 'change_title_separator');
 
 function add_css_js() {
 	//CSSの読み込みはここから
-  // animateの読み込み
-  wp_enqueue_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css');
   //css/reset.cssを読み込み
 	wp_enqueue_style('reset', get_theme_file_uri('/css/reset.css'));
+  // animateの読み込み
+  wp_enqueue_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css');
     // css読み込み
-    wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() . '/css/child-theme.css');
+    wp_enqueue_style( 'css', get_theme_file_uri('/css/child-theme.css'));
 
 	//JavaScriptの読み込みはここから
+  //デフォルトの jQuery は読み込まない
+  wp_deregister_script('jquery');
   // jqueryの読み込み
 	wp_enqueue_script('jquery','https://code.jquery.com/jquery-3.6.0.min.js', array(), '', true);
   // wowの読み込み
