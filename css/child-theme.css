@@ -14906,6 +14906,17 @@ textarea::placeholder {
   text-decoration: none;
 }
 
+.footer {
+  font-size: 1.6rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+}
+
 .has-white-color,
 .has-white-color:visited {
   color: #fff;
