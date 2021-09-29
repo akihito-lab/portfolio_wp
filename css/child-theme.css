@@ -14568,7 +14568,6 @@ body.fixed {
 
 .works-list .img-wrapper {
   width: 50%;
-  perspective: 2000px;
   background-color: #000;
   margin: 0 auto;
 }
@@ -14577,6 +14576,11 @@ body.fixed {
   .works-list .img-wrapper {
     width: 100%;
   }
+}
+
+.works-list .img-wrapper-link {
+  display: block;
+  perspective: 2000px;
 }
 
 .works-list .img {
