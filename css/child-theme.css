@@ -14151,7 +14151,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 img {
@@ -14859,6 +14859,7 @@ textarea::placeholder {
 
 .submit {
   text-align: center;
+  margin-bottom: 90px;
 }
 
 .submit .submit-btn {
