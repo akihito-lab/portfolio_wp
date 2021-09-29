@@ -14816,6 +14816,96 @@ body.fixed {
   transition-delay: 0.96s;
 }
 
+.form_table {
+  margin: 50px auto 0;
+  max-width: 1000px;
+  padding: 0 20px;
+  font-size: 1.6rem;
+}
+
+dl {
+  margin-bottom: 30px;
+}
+
+dt {
+  margin-bottom: 10px;
+}
+
+dd {
+  margin-bottom: 0;
+}
+
+input {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 1.6rem;
+}
+
+input::placeholder {
+  opacity: 0.7;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+textarea::placeholder {
+  opacity: 0.7;
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit .submit-btn {
+  width: 150px;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.submit .submit-btn:hover {
+  background-color: #f6f6f4;
+}
+
+.complete {
+  padding-top: 90px;
+}
+
+.complete-desc {
+  margin-top: 30px;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.back-btn {
+  text-align: center;
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.back-btn .back-btn-link {
+  display: inline-block;
+  width: 150px;
+  padding: 5px 0;
+  font-size: 1.6rem;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 3px;
+}
+
+.back-btn .back-btn-link:hover {
+  background-color: #f6f6f4;
+  text-decoration: none;
+}
+
 .has-white-color,
 .has-white-color:visited {
   color: #fff;

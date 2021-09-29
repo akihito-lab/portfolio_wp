@@ -1,0 +1,28 @@
+.complete {
+  padding-top: 90px;
+}
+.complete-desc {
+  margin-top: 30px;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.back-btn {
+  text-align: center;
+  margin-top: 80px;
+  padding: 0 20px;
+  .back-btn-link {
+    display: inline-block;
+    width: 150px;
+    padding: 5px 0;
+    font-size: 1.6rem;
+    border: 1px solid cl(black);
+    color: cl(black);
+    border-radius: 3px;
+    &:hover {
+      background-color: #f6f6f4;
+      text-decoration: none;
+    }
+  }
+}

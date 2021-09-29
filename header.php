@@ -15,26 +15,27 @@
 </head>
 
 <body>
-
-<header>
-  <span class="nav_toggle">
-    <i></i>
-    <i></i>
-  </span>
-  <nav class="header-nav">
-    <ul class="nav-list">
-      <li class="item"><a href="#" class="nav-service link">Service</a></li>
-      <li class="item"><a href="#" class="nav-works link">Works</a></li>
-      <li class="item"><a href="#" class="nav-about link">About Me</a></li>
-      <li class="item"><a href="#" class="nav-contact link">Contact</a></li>
-    </ul>
-  </nav>
-  <nav class="click-nav">
-    <ul class="click-list">
-      <li class="item"><a href="#" class="click-service link">Service</a></li>
-      <li class="item"><a href="#" class="click-works link">Works</a></li>
-      <li class="item"><a href="#" class="click-about link">About Me</a></li>
-      <li class="item"><a href="#" class="click-contact link">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+<?php if( is_front_page() ): ?>
+  <header>
+    <span class="nav_toggle">
+      <i></i>
+      <i></i>
+    </span>
+    <nav class="header-nav">
+      <ul class="nav-list">
+        <li class="item"><a href="#" class="nav-service link">Service</a></li>
+        <li class="item"><a href="#" class="nav-works link">Works</a></li>
+        <li class="item"><a href="#" class="nav-about link">About Me</a></li>
+        <li class="item"><a href="#" class="nav-contact link">Contact</a></li>
+      </ul>
+    </nav>
+    <nav class="click-nav">
+      <ul class="click-list">
+        <li class="item"><a href="#" class="click-service link">Service</a></li>
+        <li class="item"><a href="#" class="click-works link">Works</a></li>
+        <li class="item"><a href="#" class="click-about link">About Me</a></li>
+        <li class="item"><a href="#" class="click-contact link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<?php endif; ?>

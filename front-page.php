@@ -142,6 +142,7 @@
   <section class="cmn-section contact">
     <div class="inner">
       <h2 class="cmn-title contact-title">Contact</h2>
+      <?php echo do_shortcode('[mwform_formkey key="13"]'); ?>
     </div>
   </section>
 
@@ -149,11 +150,4 @@
 </main>
 
 
-<footer>
-
-</footer>
-
-<?php wp_footer(); ?>
-</body>
-
-</html>
+<?php get_footer(); ?>
