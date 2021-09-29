@@ -57,7 +57,7 @@
       <h2 class="cmn-title works-title">Works</h2>
       <ul class="works-list">
         <li class="item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
-          <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/screenshot.png')); ?>" alt="" class="img"></div>
+          <div class="img-wrapper"><a href="" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/screenshot.png')); ?>" alt="" class="img"></a></div>
           <div class="text">
             <h3 class="title "  data-txt="My portfolio">My portfolio</h3>
             <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
@@ -65,7 +65,7 @@
           </div>
         </li>
         <li class="item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
-          <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio1.png')); ?>" alt="Gokurakutei" class="img"></div>
+          <div class="img-wrapper"><a href="https://portfolio.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio1.png')); ?>" alt="Gokurakutei" class="img"></a></div>
           <div class="text">
             <h3 class="title"  data-txt="架空の温泉旅館">架空の温泉旅館</h3>
             <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
@@ -73,7 +73,7 @@
           </div>
         </li>
         <li class="item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".5s">
-          <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio2.png')); ?>" alt="Design for smile" class="img"></div>
+          <div class="img-wrapper"><a href="https://portfolio2.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio2.png')); ?>" alt="Design for smile" class="img"></a></div>
           <div class="text">
             <h3 class="title" data-txt="Design for smile">Design for smile</h3>
             <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery <br><br>
@@ -81,7 +81,7 @@
           </div>
         </li>
         <li class="item wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".6s">
-          <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio3.png')); ?>" alt="Design for smile" class="img"></div>
+          <div class="img-wrapper"><a href="https://portfolio3.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio3.png')); ?>" alt="Design for smile" class="img"></a></div>
           <div class="text">
             <h3 class="title" data-txt="Design for smile"> Design for smile</h3>
             <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery <br><br>
