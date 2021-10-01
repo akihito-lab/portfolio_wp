@@ -2,18 +2,17 @@
   background-image: url(../image/water-1018808_1280.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  position: relative;
-  font-family: "Dancing Script", "Cinzel", "PT Serif", serif;
+  padding: 220px 0;
+  font-family: "Cinzel", "PT Serif", serif;
 }
 .top-title {
   font-size: 6vw;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // width: 100%;
   text-align: center;
-  transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
   @include sp {
     font-size: 8vw;
   }

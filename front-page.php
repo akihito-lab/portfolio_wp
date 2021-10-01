@@ -4,7 +4,7 @@
 <main>
 
   <div class="top ">
-  <div class="inner wow animate__animated animate__fadeIn" data-wow-duration="3s" data-wow-delay=".3s">
+  <div class="inner wow animate__animated animate__zoomIn" data-wow-duration="3s" data-wow-delay=".3s">
     <div class="top-title">
       <h1 class="main-title">AKIHITO FUKUDA's Portfolio</h1>
       <p class="sub-title">- Web Engineer -</p>
