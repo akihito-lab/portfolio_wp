@@ -7,12 +7,7 @@
 }
 .top-title {
   font-size: 6vw;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // width: 100%;
   text-align: center;
-  // transform: translate(-50%, -50%);
   @include sp {
     font-size: 8vw;
   }
