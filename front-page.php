@@ -43,7 +43,7 @@
             </div>
           </li>
           <li class="item wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".7s">
-            <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/smartphone-1184883_640.png')); ?>" alt="smartphone" class="img smartphone-img"></div>
+            <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/support.png')); ?>" alt="smartphone" class="img smartphone-img"></div>
             <div class="text">
               <h3 class="title">サポート対応</h3>
               <p class="desc">不明点・不安点などはいつでもご相談ください。お客様が納得感を持つまでサポートいたします。また、納品してから１ヵ月間は無償で対応いたします。<br><br>
