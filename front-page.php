@@ -23,16 +23,20 @@
               <h3 class="title">コーディング</h3>
               <p class="desc">LPやコーポレートサイトなど目的に応じた適切なコーディングを行います。また、軽微なコードの修正などにも対応しています。<br><br>
                 【料金目安】<br>
-                コード修正（一か所）<br> ¥1,000~<br>
-                LP制作（トップ） <br>¥20,000~/1p<br>
-                LP制作（下層） <br>¥5,000~/1p<br></p>
+                コーポレートサイト（トップ）<br>¥20,000~/1p<br>
+                コーポレートサイト（下層）<br>¥5,000~/1p<br>
+                ランディングページ <br>¥20,000~/1p<br>
+                レスポンシブ化 （1ブレイク）<br>¥5,000~/1p<br>
+                コード修正（一か所） <br>¥1,000~<br>
+                流し込みページ  <br>¥1,000~/1p<br>
+              </p>
             </div>
           </li>
           <li class="item wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">
             <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/wordpress2.jpg')); ?>" alt="wordpress" class="img"></div>
             <div class="text">
               <h3 class="title">Wordpress</h3>
-              <p class="desc">WordPressサイトの構築や既存サイトのWordPress移行、コードの修正を行います。<br><br>
+              <p class="desc">WordPressサイトの構築や既存静的サイトのWordPress移行を行います。<br><br>
                 【料金目安】<br>
                 Wordpress移行<br> ¥100,000~<br>
                 Wordpress制作<br> ¥200,000~<br></p>
@@ -41,10 +45,8 @@
           <li class="item wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".7s">
             <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/smartphone-1184883_640.png')); ?>" alt="smartphone" class="img smartphone-img"></div>
             <div class="text">
-              <h3 class="title">レスポンシブ対応</h3>
-              <p class="desc">タブレットやスマートフォンの画面サイズごとにデザインを変えて、どのデバイスからでも見やすいwebサイトを制作致します<br><br>
-                【料金目安】<br>
-                ¥10,000~/1p<br></p>
+              <h3 class="title">サポート対応</h3>
+              <p class="desc">不明点・不安点などはいつでもご相談ください。お客様が納得感を持つまでサポートいたします。また、納品してから１ヵ月間は無償で対応いたします。<br><br>
             </div>
           </li>
         </ul>
