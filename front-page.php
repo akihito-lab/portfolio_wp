@@ -21,32 +21,21 @@
             <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/desktop.jpg')); ?>" alt="desktop" class="img"></div>
             <div class="text">
               <h3 class="title">コーディング</h3>
-              <p class="desc">LPやコーポレートサイトなど目的に応じた適切なコーディングを行います。また、軽微なコードの修正などにも対応しています。<br><br>
-                【料金目安】<br>
-                コーポレートサイト（トップ）<br>¥20,000~/1p<br>
-                コーポレートサイト（下層）<br>¥5,000~/1p<br>
-                ランディングページ <br>¥20,000~/1p<br>
-                レスポンシブ化 （1ブレイク）<br>¥5,000~/1p<br>
-                コード修正（一か所） <br>¥1,000~<br>
-                流し込みページ  <br>¥1,000~/1p<br>
-              </p>
+              <p class="desc">LPやコーポレートサイトなど目的に応じた適切なコーディングを行います。また、軽微なコードの修正などにも対応しています。</p>
             </div>
           </li>
           <li class="item wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">
             <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/wordpress2.jpg')); ?>" alt="wordpress" class="img"></div>
             <div class="text">
               <h3 class="title">Wordpress</h3>
-              <p class="desc">WordPressサイトの構築や既存静的サイトのWordPress移行を行います。<br><br>
-                【料金目安】<br>
-                Wordpress移行<br> ¥100,000~<br>
-                Wordpress制作<br> ¥200,000~<br></p>
+              <p class="desc">WordPressサイトの構築や既存静的サイトのWordPress移行を行います。</p>
             </div>
           </li>
           <li class="item wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".7s">
             <div class="img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/support.png')); ?>" alt="smartphone" class="img smartphone-img"></div>
             <div class="text">
               <h3 class="title">サポート対応</h3>
-              <p class="desc">不明点・不安点などはいつでもご相談ください。お客様が納得感を持つまでサポートいたします。また、納品してから１ヵ月間は無償で対応いたします。<br><br>
+              <p class="desc">不明点・不安点などはいつでもご相談ください。お客様が納得感を持つまでサポートいたします。また、納品してから１ヵ月間は無償で対応いたします。</p>
             </div>
           </li>
         </ul>
@@ -91,6 +80,46 @@
           </div>
         </li>
       </ul>
+    </div>
+  </section>
+
+  <section class="cmn-section price">
+    <div class="inner">
+    <h2 class="cmn-title price-title">価格表</h2>
+    <div class="price-list-wrapper">
+      <dl class="price-list">
+        <dt class="term">コーポレートサイト（トップ）</dt>
+        <dd class="desc">¥15,000~/1p</dd>
+      </dl>
+      <dl class="price-list">
+        <dt class="term">コーポレートサイト（下層）</dt>
+        <dd class="desc">¥3,500~/1p</dd>
+      </dl>
+      <dl class="price-list">
+        <dt class="term">ランディングページ</dt>
+        <dd class="desc">¥15,000~/1p</dd>
+      </dl>
+      <dl class="price-list">
+        <dt class="term">レスポンシブ化 （1ブレイク）</dt>
+        <dd class="desc">¥3500~/1p</dd>
+      </dl>
+      <dl class="price-list">
+        <dt class="term">コード修正（一か所）</dt>
+        <dd class="desc">¥700~</dd>
+      </dl>
+      <dl class="price-list">
+        <dt class="term">流し込みページ</dt>
+        <dd class="desc">¥700~/1p</dd>
+      </dl>
+      <dl class="price-list">
+        <dt class="term">Wordpress移行</dt>
+        <dd class="desc">¥75,000~</dd>
+      </dl>
+      <dl class="price-list">
+        <dt class="term">Wordpress制作</dt>
+        <dd class="desc">¥150,000~</dd>
+      </dl>
+    </div>
     </div>
   </section>
 
