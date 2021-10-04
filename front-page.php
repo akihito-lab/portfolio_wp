@@ -86,7 +86,7 @@
   <section class="cmn-section price">
     <div class="inner">
     <h2 class="cmn-title price-title">価格表</h2>
-    <div class="price-list-wrapper">
+    <div class="price-list-wrapper wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
       <dl class="price-list">
         <dt class="term">コーポレートサイト（トップ）</dt>
         <dd class="desc">¥15,000~/1p</dd>
