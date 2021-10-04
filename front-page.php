@@ -119,6 +119,7 @@
         <dt class="term">Wordpress制作</dt>
         <dd class="desc">¥150,000~</dd>
       </dl>
+      <p class="price-estimate">※正式なお見積もりは別途ご相談させていただきます</p>
     </div>
     </div>
   </section>
