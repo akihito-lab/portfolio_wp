@@ -14971,6 +14971,35 @@ textarea::placeholder {
   text-align: center;
 }
 
+.page-top {
+  display: none;
+}
+
+.move-page-top-wrapper {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 300;
+}
+
+.move-page-top {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.move-page-top:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
 .has-white-color,
 .has-white-color:visited {
   color: #fff;

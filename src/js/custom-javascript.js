@@ -94,5 +94,21 @@ jQuery(function() {
     });
   });
 
-  
+  // top-pageの実装
+  $(window).on('scroll', function (){
+  var now = $( window ).scrollTop() ;
+  if( now > 1 ){
+
+    $( '#page-top' ).fadeIn( "slow" ) ;
+  }
+  else
+  {
+      $( '#page-top' ).fadeOut( 'slow' ) ;
+  }
+　});
+$( '#move-page-top' ).click(function(){
+    $( 'html,body' ).animate( {scrollTop:0} , 'slow' ) ;
+	}
+) ;
+
 });

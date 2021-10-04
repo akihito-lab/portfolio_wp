@@ -7,3 +7,29 @@
   padding: 20px;
   text-align: center;
 }
+
+.page-top {
+  display: none;
+}
+.move-page-top-wrapper {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 300;
+}
+.move-page-top {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+  color: cl(white);
+  transition: all 0.3s;
+  &:hover {
+    color: cl(white);
+    cursor: pointer;
+  }
+}
