@@ -14661,6 +14661,12 @@ body.fixed {
   padding: 0 20px;
 }
 
+@media print, screen and (max-width: 768px) {
+  .price-list-wrapper {
+    max-width: 600px;
+  }
+}
+
 .price-list {
   font-size: 1.6rem;
   display: flex;
