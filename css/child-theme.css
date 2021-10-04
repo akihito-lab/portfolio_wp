@@ -14500,7 +14500,7 @@ body.fixed {
 }
 
 .works {
-  margin-top: 500px;
+  margin-top: 170px;
 }
 
 @media print, screen and (max-width: 768px) {
@@ -14664,12 +14664,12 @@ body.fixed {
 .price-list {
   font-size: 1.6rem;
   display: flex;
-  border-top: 3px solid #c5c9cb;
+  border-top: 2px solid #c5c9cb;
   margin: 0;
 }
 
 .price-list:last-of-type {
-  border-bottom: 3px solid #c5c9cb;
+  border-bottom: 2px solid #c5c9cb;
 }
 
 .price-list .term {
