@@ -128,7 +128,7 @@
     <div class="inner">
       <h2 class="cmn-title about-title">About Me</h2>
       <div class="about-wrapper wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
-        <div class="about-img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/IMG_9808.jpg')); ?>" alt="my_picture" class="about-img"></div>
+        <div class="about-img-wrapper"><img src="<?php echo esc_url(get_theme_file_uri('/image/mypicture.jpg')); ?>" alt="my_picture" class="about-img"></div>
         <div class="about-text">
           <div class="introduction-text">
             <h3 class="introduction-title">Introduction</h3>

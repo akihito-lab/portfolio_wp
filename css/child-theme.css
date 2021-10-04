@@ -14705,7 +14705,7 @@ body.fixed {
 
 .price-estimate {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .about-wrapper {
@@ -14735,7 +14735,8 @@ body.fixed {
 }
 
 .about-img {
-  border-radius: 30px;
+  transform: rotate(6deg);
+  border-radius: 50%;
 }
 
 .about-text {
