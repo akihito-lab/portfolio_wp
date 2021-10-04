@@ -6,10 +6,10 @@
 .price-list {
   font-size: 1.6rem;
   display: flex;
-  border-top: 3px solid #c5c9cb;
+  border-top: 2px solid #c5c9cb;
   margin: 0;
   &:last-of-type {
-    border-bottom: 3px solid #c5c9cb;
+    border-bottom: 2px solid #c5c9cb;
   }
   .term {
     width: 40%;
