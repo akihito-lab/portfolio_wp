@@ -32,7 +32,7 @@ jQuery(function() {
       var changeOffset = $(this).offset().top;
       var scrolltop = $(window).scrollTop();
       var wh = $(window).height();
-      if(scrolltop > changeOffset -  3* wh / 7    ){
+      if(scrolltop > changeOffset -  wh / 2    ){
       $(this).addClass('change');
       }
     });
@@ -45,6 +45,10 @@ jQuery(function() {
   
   $('.nav-works').click(function() {
     $("html,body").animate({scrollTop:$(".works").offset().top});
+  });
+
+  $('.nav-price').click(function() {
+    $("html,body").animate({scrollTop:$(".price").offset().top});
   });
   
   $('.nav-about').click(function() {
@@ -64,6 +68,12 @@ jQuery(function() {
   
   $('.click-works').click(function() {
     $("html,body").animate({scrollTop:$(".works").offset().top});
+    $('.nav_toggle, .click-nav').removeClass("show");
+    $('body').removeClass('fixed');
+  });
+
+  $('.click-price').click(function() {
+    $("html,body").animate({scrollTop:$(".price").offset().top});
     $('.nav_toggle, .click-nav').removeClass("show");
     $('body').removeClass('fixed');
   });
