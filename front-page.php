@@ -174,7 +174,7 @@
   <section class="cmn-section contact">
     <div class="inner">
       <h2 class="cmn-title contact-title">Contact</h2>
-      <?php echo do_shortcode('[mwform_formkey key="13"]'); ?>
+      <?php echo do_shortcode('[contact-form-7 id="21" title="お問い合わせ"]'); ?>
     </div>
   </section>
 
