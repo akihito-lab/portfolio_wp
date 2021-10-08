@@ -48,7 +48,7 @@
       <h2 class="cmn-title works-title">Works</h2>
       <ul class="works-list wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
         <li class="item">
-          <div class="img-wrapper"><a href="" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/screenshot.png')); ?>" alt="" class="img"></a></div>
+          <div class="img-wrapper"><a href="" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio.png')); ?>" alt="" class="img"></a></div>
           <div class="text">
             <h3 class="title "  data-txt="My portfolio">My portfolio</h3>
             <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
@@ -58,7 +58,7 @@
         <li class="item">
           <div class="img-wrapper"><a href="https://portfolio.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio1.png')); ?>" alt="Gokurakutei" class="img"></a></div>
           <div class="text">
-            <h3 class="title"  data-txt="架空の温泉旅館">架空の温泉旅館</h3>
+            <h3 class="title"  data-txt="京都の山中に佇む温泉旅館">京都の山中に佇む温泉旅館</h3>
             <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
               【description】<br class="sp">デザインカンプからのコーディング</p>
           </div>
@@ -66,7 +66,7 @@
         <li class="item">
           <div class="img-wrapper"><a href="https://portfolio2.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio2.png')); ?>" alt="Design for smile" class="img"></a></div>
           <div class="text">
-            <h3 class="title" data-txt="Design for smile">Design for smile</h3>
+            <h3 class="title" data-txt="あなたのオフィスを快適に">あなたのオフィスを快適に</h3>
             <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery <br><br>
               【description】<br class="sp">デザインカンプからのコーディング</p>
           </div>
@@ -74,7 +74,7 @@
         <li class="item">
           <div class="img-wrapper"><a href="https://portfolio3.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio3.png')); ?>" alt="Design for smile" class="img"></a></div>
           <div class="text">
-            <h3 class="title" data-txt="Design for smile"> Design for smile</h3>
+            <h3 class="title" data-txt="Design for Happiness"> Design for Happiness</h3>
             <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery <br><br>
               【description】<br class="sp">デザインカンプからのコーディング</p>
           </div>
@@ -119,7 +119,7 @@
         <dt class="term">Wordpress制作</dt>
         <dd class="desc">¥150,000~</dd>
       </dl>
-      <p class="price-estimate">※正式なお見積もりは別途ご相談させていただきます</p>
+      <p class="price-estimate">※正式なお見積もりは別途ご相談させていただきます。<br>まずはお問い合わせください。</p>
     </div>
     </div>
   </section>
@@ -139,7 +139,7 @@
             </p>
           </div>
           <div class="education-text">
-            <h3 class="education-title">Educartions</h3>
+            <h3 class="education-title">Educations</h3>
             <p class="education-desc">
               1998年：大阪府に生まれる<br><br>
               2016年：門真なみはや高校卒業<br><br>
