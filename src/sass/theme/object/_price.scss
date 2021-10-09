@@ -1,3 +1,9 @@
+.price {
+  margin-top: 170px;
+  @include sp {
+    margin-top: 850px;
+  }
+}
 .price-list-wrapper {
   max-width: 1100px;
   margin: 50px auto 0;

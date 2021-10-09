@@ -4,13 +4,53 @@
 <main>
 
   <div class="top ">
-  <div class="inner wow animate__animated animate__zoomIn" data-wow-duration="3s" data-wow-delay=".3s">
-    <div class="top-title">
-      <h1 class="main-title">AKIHITO FUKUDA's Portfolio</h1>
-      <p class="sub-title">- Web Engineer -</p>
+    <div class="inner wow animate__animated animate__zoomIn" data-wow-duration="3s" data-wow-delay=".3s">
+      <div class="top-title">
+        <h1 class="main-title">AKIHITO FUKUDA's Portfolio</h1>
+        <p class="sub-title">- Web Engineer -</p>
+      </div>
     </div>
   </div>
-  </div>
+
+  <section class="cmn-section works">
+    <div class="inner">
+      <h2 class="cmn-title works-title">Works</h2>
+      <ul class="works-list wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
+        <li class="item">
+          <div class="img-wrapper"><a href="<?php echo esc_url( home_url() ); ?>" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio.png')); ?>" alt="" class="img"></a></div>
+          <div class="text">
+            <h3 class="title "  data-txt="My portfolio">My portfolio</h3>
+            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
+              【description】<br class="sp">オリジナル作品 <br></p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img-wrapper"><a href="https://portfolio.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio1.png')); ?>" alt="Gokurakutei" class="img"></a></div>
+          <div class="text">
+            <h3 class="title"  data-txt="京都の山中に佇む温泉旅館">京都の山中に佇む温泉旅館</h3>
+            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
+              【description】<br class="sp">デザインカンプからのコーディング</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img-wrapper"><a href="https://akihito-lab.github.io/portfolio1/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio2.png')); ?>" alt="Design for smile" class="img"></a></div>
+          <div class="text">
+            <h3 class="title" data-txt="あなたのオフィスをより快適に">あなたのオフィスをより快適に</h3>
+            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery <br><br>
+              【description】<br class="sp">デザインカンプからのコーディング</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img-wrapper"><a href="https://akihito-lab.github.io/portfolio2/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio3.png')); ?>" alt="Design for smile" class="img"></a></div>
+          <div class="text">
+            <h3 class="title" data-txt="Design For Happiness">Design For Happiness</h3>
+            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery <br><br>
+              【description】<br class="sp">デザインカンプからのコーディング</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
   <section class="cmn-section service">
     <div class="inner">
@@ -40,46 +80,6 @@
           </li>
         </ul>
       </div>
-    </div>
-  </section>
-
-  <section class="cmn-section works">
-    <div class="inner">
-      <h2 class="cmn-title works-title">Works</h2>
-      <ul class="works-list wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
-        <li class="item">
-          <div class="img-wrapper"><a href="<?php echo esc_url( home_url() ); ?>" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio.png')); ?>" alt="" class="img"></a></div>
-          <div class="text">
-            <h3 class="title "  data-txt="My portfolio">My portfolio</h3>
-            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
-              【description】<br class="sp">オリジナル作品 <br></p>
-          </div>
-        </li>
-        <li class="item">
-          <div class="img-wrapper"><a href="https://portfolio.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio1.png')); ?>" alt="Gokurakutei" class="img"></a></div>
-          <div class="text">
-            <h3 class="title"  data-txt="京都の山中に佇む温泉旅館">京都の山中に佇む温泉旅館</h3>
-            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
-              【description】<br class="sp">デザインカンプからのコーディング</p>
-          </div>
-        </li>
-        <li class="item">
-          <div class="img-wrapper"><a href="https://akihito-lab.github.io/portfolio1/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio2.png')); ?>" alt="Design for smile" class="img"></a></div>
-          <div class="text">
-            <h3 class="title" data-txt="あなたのオフィスを快適に">あなたのオフィスを快適に</h3>
-            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery <br><br>
-              【description】<br class="sp">デザインカンプからのコーディング</p>
-          </div>
-        </li>
-        <li class="item">
-          <div class="img-wrapper"><a href="https://akihito-lab.github.io/portfolio2/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio3.png')); ?>" alt="Design for smile" class="img"></a></div>
-          <div class="text">
-            <h3 class="title" data-txt="Design for Happiness"> Design for Happiness</h3>
-            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery <br><br>
-              【description】<br class="sp">デザインカンプからのコーディング</p>
-          </div>
-        </li>
-      </ul>
     </div>
   </section>
 
@@ -134,7 +134,7 @@
             <h3 class="introduction-title">Introduction</h3>
             <p class="introduction-desc">
               初めまして。Webエンジニアの福田亮史（フクダアキヒト）と申します。<br>
-              クライアント様にとって最高のwebサイトをご提供できるよう、常にクライアント様に寄り添って考えていき、全力を尽くして作成いたします。
+              お客様にとって最高のwebサイトをご提供できるよう、常にお客様に寄り添って考えていき、全力を尽くして作成いたします。
               また開発を進めていく上で、ご連絡やご相談は迅速に対応いたします。
             </p>
           </div>
@@ -156,15 +156,15 @@
         <span>s</span>
         <span>t</span>
         <span>&nbsp;</span>
-        <span>C</span>
-        <span>o</span>
-        <span>m</span>
-        <span>e</span>
+        <span>i</span>
         <span>s</span>
         <span>&nbsp;</span>
-        <span>F</span>
-        <span>i</span>
-        <span>r</span>
+        <span>t</span>
+        <span>h</span>
+        <span>e</span>
+        <span>&nbsp;</span>
+        <span>b</span>
+        <span>e</span>
         <span>s</span>
         <span>t</span>
       </div>
