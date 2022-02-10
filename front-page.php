@@ -25,6 +25,22 @@
           </div>
         </li>
         <li class="item">
+          <div class="img-wrapper"><a href="https://junna-blog.uh-oh.jp/junna-blog/book/" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/book-pro.jpg')); ?>" alt="" class="img"></a></div>
+          <div class="text">
+            <h3 class="title "  data-txt="あなたに逢いたくて（恋愛小説）">あなたに逢いたくて（恋愛小説）</h3>
+            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
+              【description】<br class="sp">ランディングページ<br></p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="img-wrapper"><a href="https://junna-blog.uh-oh.jp/junna-blog/divination/" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/div-pro.png')); ?>" alt="" class="img"></a></div>
+          <div class="text">
+            <h3 class="title "  data-txt="霊感タロット鑑定＆西洋占星術カウンセラー">霊感タロット鑑定＆西洋占星術カウンセラー</h3>
+            <p class="desc">【Skill】<br class="sp">HTML / CSS / JQuery / Wordpress<br><br>
+              【description】<br class="sp">ランディングページ<br></p>
+          </div>
+        </li>
+        <li class="item">
           <div class="img-wrapper"><a href="https://portfolio.akihitonoblog.com/" target="_blank" rel="noopener noreferrer" class="img-wrapper-link"><img src="<?php echo esc_url(get_theme_file_uri('/image/my_portfolio1.png')); ?>" alt="Gokurakutei" class="img"></a></div>
           <div class="text">
             <h3 class="title"  data-txt="京都の山中に佇む温泉旅館">京都の山中に佇む温泉旅館</h3>

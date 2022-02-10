@@ -13,7 +13,7 @@ jQuery(function() {
 
 
     if (window.matchMedia('(min-width: 769px)').matches) {
-      /* ウィンドウサイズ768以下の処理を記述 */
+      /* ウィンドウサイズ768以上の処理を記述 */
       $(window).scroll(function () {
         var TopHeight = $('.top').outerHeight(true);
         if ($(this).scrollTop() > TopHeight - 95) {
@@ -23,7 +23,7 @@ jQuery(function() {
           $('.nav-list').removeClass('Telescopic');
           $('.nav_toggle').fadeOut(600);
         }
-    });
+      });
     }
 
 

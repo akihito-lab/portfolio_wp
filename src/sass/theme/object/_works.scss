@@ -82,11 +82,16 @@
       width: 100%;
       height: 100%;
       color: cl(white);
+      -webkit-clip-path: polygon(0 0, 200% 0, 0 200%);
       clip-path: polygon(0 0, 200% 0, 0 200%);
+      transition: -webkit-clip-path 0.65s cubic-bezier(0.24, 0.13, 0.26, 1.01);
       transition: clip-path 0.65s cubic-bezier(0.24, 0.13, 0.26, 1.01);
+      transition: clip-path 0.65s cubic-bezier(0.24, 0.13, 0.26, 1.01),
+        -webkit-clip-path 0.65s cubic-bezier(0.24, 0.13, 0.26, 1.01);
       -webkit-transition: clip-path 0.65s cubic-bezier(0.24, 0.13, 0.26, 1.01);
     }
     &.change::after {
+      -webkit-clip-path: polygon(0 200%, 200% 0%, 200% 200%);
       clip-path: polygon(0 200%, 200% 0%, 200% 200%);
     }
   }
